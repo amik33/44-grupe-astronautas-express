@@ -1,0 +1,43 @@
+.logo {
+    height: 30px;
+    width: 200px;
+    object-fit: contain;
+    object-position: left center;
+}
+.main-nav {
+    display: flex;
+    gap: 30px;
+}
+.link {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: underline;
+    color: #55337a;
+}
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+.main-title {
+    font-size: 32px;
+}
+.main-title > span {
+    display: block;
+    font-weight: normal;
+}
+.main-title::after {
+    content:"";
+    display: block;
+    width: 65px;
+    height: 2.5px;
+    margin-top: 10px;
+    background-color: #55337a;
+}
+.description {
+    color: #A7A7A7;
+}
